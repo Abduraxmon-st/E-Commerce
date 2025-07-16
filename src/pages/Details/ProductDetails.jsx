@@ -125,7 +125,7 @@ export const ProductDetails = () => {
                               setQuantity(value)
                            }
                         }}
-                     />
+                     /> 
                      <button className='w-10 h-11 text-2xl border-l bg-[#db4444] text-white' onClick={increment}>+</button>
                   </div>
                   <button onClick={() => handleSubmit()} className='px-12 py-2.5 bg-[#db4444] text-white font-medium rounded-sm' >Buy Now</button>
